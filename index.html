@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="bundle.js" defer></script>
+  <title>Weather</title>
+ </head>
+ <body>
+  <div class="container">
+   <div class="time_date">
+    <div class="time">
+     <div class="hours"></div>
+     :
+     <div class="minutes"></div>
+    </div>
+    <div class="date"></div>
+   </div>
+   <div class="search_panel">
+    <input id="input" type="text" placeholder="  Search Your City Here" />
+    <img src="/search1.png" id="searchicon" width="50px" />
+    <span class="error">No location found!</span>
+   </div>
+   <div class="country_city">
+    <div class="country"></div>
+    <div class="city"></div>
+   </div>
+   <div class="weather_dashboard">
+    <div class="weatherdescription">
+     <img src="" id="descriptionicon" width="100px" />
+     <div class="description"></div>
+    </div>
+    <div class="temperature">
+     <div class="maxtemp">
+      <div class="maxtempvalue"></div>
+      <div class="tempunit">C</div>
+      <div class="text">Max</div>
+     </div>
+     <div class="temp">
+      <div class="tempvalue"></div>
+      <div class="tempunit">C</div>
+      <div class="text">Feels like</div>
+     </div>
+     <div class="mintemp">
+      <div class="mintempvalue"></div>
+      <div class="tempunit">C</div>
+      <div class="text">Min</div>
+     </div>
+    </div>
+    <div class="humidityitem">
+     <img src="/humidity.png" width="70px" />
+     <div class="text">Humidity(%)</div>
+     <div class="humidity"></div>
+    </div>
+    <div class="pressureitem">
+     <img src="/pressure.png" width="70px" />
+     <div class="text">Pressure(Hpa)</div>
+     <div class="pressure"></div>
+    </div>
+    <div class="windspeeditem">
+     <img src="/wind.png" width="70px" />
+     <div class="text">WindSpeed(m/s)</div>
+     <div class="windspeed"></div>
+    </div>
+    <div class="cloudinessitem">
+     <img src="/cloud.png" width="70px" />
+     <div class="text">Cloudiness(%)</div>
+     <div class="cloudiness">85</div>
+    </div>
+   </div>
+   <div class="copyright">© Copyright 2022 - By Mehdi Touil</div>
+  </div>
+ </body>
+</html>
