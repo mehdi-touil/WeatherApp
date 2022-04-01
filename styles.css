@@ -6,7 +6,7 @@
  min-height: 100vh;
  width: 100vw;
  min-width: 200px;
- background: url(/src/images/desert.jpg);
+ background: url(desert.jpg);
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
